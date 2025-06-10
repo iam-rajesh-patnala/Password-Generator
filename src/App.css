@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+}
+
+.bg-container {
+  background-color: #3a3a3a;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.password-generator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  background-color: #272727;
+}
+
+.title {
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.password-input-container{
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.password-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #fff;
+  background-color: #3a3a3a;
+  width: 50%;
+}
+
+.copy-btn {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #fff;
+  background-color: #3a3a3a;
+  cursor: pointer;
+}
+
+.options-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10px 0;
+  background-color: pink;
+}
+
+.slider-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
